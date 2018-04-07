@@ -14,3 +14,6 @@ h3. Installation
 * Run @bin/elasticsearch@ on unix, or @bin\elasticsearch.bat@ on windows.
 * Run @curl -X GET http://localhost:9200/@.
 * Start more servers ...
+
+h3. API Details
+* For API details check the api-details.txt file
