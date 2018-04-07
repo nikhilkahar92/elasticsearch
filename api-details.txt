@@ -20,6 +20,23 @@ Request:
   "dateValue": "2018-02-21"
 }
 
+RESPONSE:
+{
+    "id": "AWKh5vw0k4Jgh5sc9Khb",
+    "title": "Dance India Dance Season 5 - Episode 24 - September 13, 2015 - Full Episode",
+    "date": 1519171200000,
+    "status": "published",
+    "metadata": {
+        "region": "IN",
+        "long_synopsis": "As the competition gets tougher and narrows down to top 11, the contestants put all their effort to present an incredible performance and emerge as a shining star. In this episode, the contestants would be supported by the former DID champs who would join them as they perform an incredible dance. The specialty of today's episode is that, the contestants would depict one of their life events through dance. Be it love life, family issue, passion for dance. These contestants are sure to receive a 'Chabuk', 'Fire' and 'Killer' comments at their performances. Keep watching the Dance India Dance to witness an awesome performance given by these contestants.",
+        "meta_desc": "As the competition gets tougher and narrows down to top 11, the contestants put all their effort to present an incredible performance and emerge as a shining star. In this episode, the contestants would be supported by the former DID champs who would join them as they perform an incredible dance. The specialty of today's episode is that, the contestants would depict one of their life events through dance. Be it love life, family issue, passion for dance. These contestants are sure to receive a 'Chabuk', 'Fire' and 'Killer' comments at their performances. Keep watching the Dance India Dance to witness an awesome performance given by these contestants.",
+        "tags": [
+            "Adventure",
+            "Fantasy",
+            "Mythology"
+        ]
+    }
+}
 
 +++++++++++++SEARCH CONTENT+++++++++++++++
 
@@ -69,7 +86,7 @@ RESPONSE:
 ]
 
 
-+++++++++++++SEARCH CONTENT+++++++++++++++
++++++++++++++GET LOCATION LIST FOR TAGS THAT IS SEARCHED+++++++++++++++
 
 URL: http://localhost:8080/content/loation-by-tag
 METHOD: POST
