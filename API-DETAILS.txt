@@ -1,0 +1,99 @@
+
++++++++++++++SAVE CONTENT+++++++++++++++
+
+URL: http://localhost:8080/content/save
+Method Type: POST
+Request:
+{
+  "title": "Dance India Dance Season 5 - Episode 24 - September 13, 2015 - Full Episode",
+  "metadata": {
+    "region": "IN",
+    "long_synopsis": "As the competition gets tougher and narrows down to top 11, the contestants put all their effort to present an incredible performance and emerge as a shining star. In this episode, the contestants would be supported by the former DID champs who would join them as they perform an incredible dance. The specialty of today's episode is that, the contestants would depict one of their life events through dance. Be it love life, family issue, passion for dance. These contestants are sure to receive a 'Chabuk', 'Fire' and 'Killer' comments at their performances. Keep watching the Dance India Dance to witness an awesome performance given by these contestants.",
+    "meta_desc": "As the competition gets tougher and narrows down to top 11, the contestants put all their effort to present an incredible performance and emerge as a shining star. In this episode, the contestants would be supported by the former DID champs who would join them as they perform an incredible dance. The specialty of today's episode is that, the contestants would depict one of their life events through dance. Be it love life, family issue, passion for dance. These contestants are sure to receive a 'Chabuk', 'Fire' and 'Killer' comments at their performances. Keep watching the Dance India Dance to witness an awesome performance given by these contestants.",
+    "tags": [
+      "Fantasy",
+      "Mythology",
+      "Adventure"
+    ]
+  },
+  "status": "published",
+  "dateValue": "2018-02-21"
+}
+
+
++++++++++++++SEARCH CONTENT+++++++++++++++
+
+URL: http://localhost:8080/content/search
+METHOD Type: POST
+REQUEST:
+{
+  "tags": [
+     "romance"
+    ],
+   "lat":70.11,
+   "lon":70.11
+}
+
+RESPONSE:
+[
+    {
+        "id": "AWKgv4mrk4Jgh5sc9KhB",
+        "title": "Dance India Dance Season 5 - Episode 24 - September 13, 2015 - Full Episode",
+        "date": 1523059200000,
+        "status": "published",
+        "metadata": {
+            "region": "IN",
+            "long_synopsis": "As the competition gets tougher and narrows down to top 11, the contestants put all their effort to present an incredible performance and emerge as a shining star. In this episode, the contestants would be supported by the former DID champs who would join them as they perform an incredible dance. The specialty of today's episode is that, the contestants would depict one of their life events through dance. Be it love life, family issue, passion for dance. These contestants are sure to receive a 'Chabuk', 'Fire' and 'Killer' comments at their performances. Keep watching the Dance India Dance to witness an awesome performance given by these contestants.",
+            "meta_desc": "As the competition gets tougher and narrows down to top 11, the contestants put all their effort to present an incredible performance and emerge as a shining star. In this episode, the contestants would be supported by the former DID champs who would join them as they perform an incredible dance. The specialty of today's episode is that, the contestants would depict one of their life events through dance. Be it love life, family issue, passion for dance. These contestants are sure to receive a 'Chabuk', 'Fire' and 'Killer' comments at their performances. Keep watching the Dance India Dance to witness an awesome performance given by these contestants.",
+            "tags": [
+                "Romance"
+            ]
+        }
+    },
+    {
+        "id": "AWKgtqH8k4Jgh5sc9Kg6",
+        "title": "Dance India Dance Season 5 - Episode 24 - September 13, 2015 - Full Episode",
+        "date": 1523059200000,
+        "status": "published",
+        "metadata": {
+            "region": "IN",
+            "long_synopsis": "As the competition gets tougher and narrows down to top 11, the contestants put all their effort to present an incredible performance and emerge as a shining star. In this episode, the contestants would be supported by the former DID champs who would join them as they perform an incredible dance. The specialty of today's episode is that, the contestants would depict one of their life events through dance. Be it love life, family issue, passion for dance. These contestants are sure to receive a 'Chabuk', 'Fire' and 'Killer' comments at their performances. Keep watching the Dance India Dance to witness an awesome performance given by these contestants.",
+            "meta_desc": "As the competition gets tougher and narrows down to top 11, the contestants put all their effort to present an incredible performance and emerge as a shining star. In this episode, the contestants would be supported by the former DID champs who would join them as they perform an incredible dance. The specialty of today's episode is that, the contestants would depict one of their life events through dance. Be it love life, family issue, passion for dance. These contestants are sure to receive a 'Chabuk', 'Fire' and 'Killer' comments at their performances. Keep watching the Dance India Dance to witness an awesome performance given by these contestants.",
+            "tags": [
+                "Drama",
+                "Romance",
+                "Tragedy"
+            ]
+        }
+    }
+]
+
+
++++++++++++++SEARCH CONTENT+++++++++++++++
+
+URL: http://localhost:8080/content/loation-by-tag
+METHOD: POST
+REQUEST:
+{
+  "tags": [
+     "romance"
+    ]
+}
+
+RESPONSE:
+[
+    {
+        "id": "AWKh2MSUk4Jgh5sc9KhU",
+        "tagName": "romance",
+        "location": [
+            {
+                "lon": 70.11,
+                "lat": 70.11
+            }
+        ]
+    }
+]
+
+
+
+
