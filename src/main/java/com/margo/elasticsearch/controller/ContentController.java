@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.google.common.net.MediaType;
 import com.margo.elasticsearch.model.Content;
 import com.margo.elasticsearch.model.SearchTag;
 import com.margo.elasticsearch.model.TagSearchLocation;
@@ -24,7 +25,7 @@ public class ContentController {
 	@Autowired
 	private TagSearchLocationService tagSearchLocationService;
 	
-	@RequestMapping(value="/save", method=RequestMethod.POST)
+	@RequestMapping(value="/save", method=RequestMethod.POST, produces="application/json")
 	public Content save(@RequestBody Content content){
 		return contentService.save(content);
 	}
